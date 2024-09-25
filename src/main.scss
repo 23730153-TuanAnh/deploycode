@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 46px;
+  box-sizing: border-box;
+
+}
+
+/* CSS for AddForm component */
+
+.add-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-form h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.add-form h3 {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.add-form p,
+.add-form ul {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.add-form ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.add-form div {
+  margin-bottom: 20px;
+}
+
+.add-form div:nth-child(even) {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.add-form div:nth-child(odd) {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.add-form .english-section {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.add-form .vietnamese-section {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
